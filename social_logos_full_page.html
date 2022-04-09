@@ -131,10 +131,8 @@
 		justify-content: center;
 		align-items:center;
 }
-f0d2
 
-	
-	.container div:hover span:nth-child(1){
+	  .container div:hover span:nth-child(1){
 		transform: translate(0px, 0px);
 		opacity: 0.2;	 
 	}
@@ -444,31 +442,12 @@ f0d2
          );
 };
 
-	function setRandomClass() {
-    var ul = $(".container");
-    var items = ul.find("div");
-    var number = items.length;
-    var random = Math.floor((Math.random() * number));
-    items.removeClass("active");
-    if(items.eq(random + 100).is(':visible')){
-    items.eq(random).addClass("active");
-    }
-}
- var h = $('body').height();
 var visibleEls = new Array();
 $('.container').find('div').each(function(){
 	if($(this).is(':offscreen') == false){
 		visibleEls.push($('.container div').index($(this)));
 	};
 });
-
-function hex2a(hexx) {
-    var hex = hexx.toString();//force conversion
-    var str = '';
-    for (var i = 0; i < hex.length; i += 2)
-        str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
-    return str;
-}
 
 console.log(visibleEls);
 //alert(item);
