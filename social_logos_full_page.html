@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Carreen Radio</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Carreen Radio Best and Most Country">
+    <meta name="keywords" content="Country Music, Salem VA">
+    <meta name="author" content="Robin te Hofstee" >
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+	* {
+		margin:0;
+		padding:0;
+	}
+	
+	body {
+		width:100%;
+		height:100vh;
+		background:#222;
+		overflow:hidden;	
+	}
+	
+	.container {
+	position:relative;
+		height:100vh;
+		width:2500px;
+		display:flex;
+		background:#222;	
+		flex-wrap: wrap;
+		transform-style: preserve-3d;
+		transform: rotate(-25deg) skew(25deg);
+		top:-50%;
+		left:-560px;
+		
+	}
+	
+	.container div{
+		position:relative;
+		width:60px;
+		height:60px;
+		margin: 10px;
+		color:#fff;
+		background:#333;
+		display:flex;
+	}
+	.container div span {
+		position:absolute;
+		top:0;
+		left: 0;
+		width:100%;
+		height: 100%;
+		display:flex !important;
+		justify-content: center;
+		align-items: center;
+		background: #333;
+		color: rgba(255,255,255, 0.2);
+		font-size: 30px !important;
+	}
+.container div:before {
+		content:'';
+		position:absolute;
+		bottom:-10px;
+		left:0;
+		width:100%;
+		height:10px;
+		background:#2a2a2a;
+		transform-origin:top;
+		transform: skewX(-41deg);	
+	}
+
+.container div:after {
+		content:'';
+		position:absolute;
+		top:0px;
+		left:-9px;
+		width:9px;
+		height:100%;
+		background:#2a2a2a;
+		transform-origin:right;
+		transform: skewY(-49deg);	
+	}
+
+.container div:hover span {
+		z-index:1000;
+		color:#fff;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+		
+	}
+		
+.container div:nth-child(1n) span:nth-child(5n):before{
+		font-family: "FontAwesome"; font-weight: 900; content: "\f09a";
+		font-size: 30px;
+		justify-content: center;
+		align-items:center;
+}
+.container div:nth-child(2n) span:nth-child(5n):before{
+		font-family: "FontAwesome"; font-weight: 900; content: "\f099";
+		font-size: 30px;
+		justify-content: center;
+		align-items:center;
+}
+
+.container div:nth-child(3n) span:nth-child(5n):before{
+		font-family: "FontAwesome"; font-weight: 900; content: "\f232";
+		font-size: 30px;
+		justify-content: center;
+		align-items:center;
+}
+
+.container div:nth-child(4n) span:nth-child(5n):before{
+		font-family: "FontAwesome"; font-weight: 900; content: "\f0e1";
+		font-size: 30px;
+		justify-content: center;
+		align-items:center;
+}
+
+.container div:nth-child(5n) span:nth-child(5n):before{
+		font-family: "FontAwesome"; font-weight: 900; content: "\f16d";
+		font-size: 30px;
+		justify-content: center;
+		align-items:center;
+}
+
+.container div:nth-child(6n) span:nth-child(5n):before{
+		font-family: "FontAwesome"; font-weight: 900; content: "\f0d2";
+		font-size: 30px;
+		justify-content: center;
+		align-items:center;
+}
+f0d2
+
+	
+	.container div:hover span:nth-child(1){
+		transform: translate(0px, 0px);
+		opacity: 0.2;	 
+	}
+.container div:nth-child(1n):hover span{
+		background:#3b5999;
+}
+
+.container div:nth-child(2n):hover span{
+		background:#55acee;
+}
+
+.container div:nth-child(3n):hover span{
+		background:#25d366;
+}
+
+.container div:nth-child(4n):hover span{
+		background: #0077b5;	
+}
+
+.container div:nth-child(5n):hover span{
+		background: #e4405f;	
+}
+
+.container div:nth-child(5n):hover span{
+		background: #E60023;	
+}
+.container .f16d span {
+      z-index:1000;
+		color:#fff;
+		background: #e4405f !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f16d span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f16d span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f16d span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f16d span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f16d span:nth-child(1){
+		transform: translate(0px, 0px);
+		opacity: 0.2;	 
+	}
+	
+.container .f09a span {
+      z-index:1000;
+		color:#fff;
+		background: #3b5999 !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f09a span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f09a span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f09a span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f09a span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f09a span:nth-child(1){
+		transform: translate(0px,0px);
+		opacity: 0.2;	 
+	}
+	
+	.container .f16d span {
+      z-index:1000;
+		color:#fff;
+		background: #e4405f !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f16d span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f16d span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f16d span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f16d span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f16d span:nth-child(1){
+		transform: translate(0px,0px);
+		opacity: 0.2;	 
+	}
+	
+.container .f099 span {
+      z-index:1000;
+		color:#fff;
+		background: #55acee !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f099 span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f099 span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f099 span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f099 span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f099 span:nth-child(1){
+		transform: translate(0px,0px);
+		opacity: 0.2;	 
+	}
+	
+	.container .f0e1 span {
+      z-index:1000;
+		color:#fff;
+		background: #0077b5 !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f0e1 span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f0e1 span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f0e1 span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f0e1 span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f0e1 span:nth-child(1){
+		transform: translate(0px,0px);
+		opacity: 0.2;	 
+	}
+.container div:hover span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+
+		.container .f232 span {
+      z-index:1000;
+		color:#fff;
+		background: #25d366 !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f232 span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f232 span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f232 span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f232 span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f232 span:nth-child(1){
+		transform: translate(0px,0px);
+		opacity: 0.2;	 
+	}
+	
+	.container .f0d2 span {
+      z-index:1000;
+		color:#fff;
+		background: #E60023 !important;
+		box-shadow: -1px 1px 1px rgba(0,0,0,0.5);
+		z-index:99999;
+
+}
+
+.container .f0d2 span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	
+	.container .f0d2 span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container .f0d2 span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container .f0d2 span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container .f0d2 span:nth-child(1){
+		transform: translate(0px,0px);
+		opacity: 0.2;	 
+	}
+.container div:hover span:nth-child(5){
+		transform: translate(40px, -40px);
+		opacity: 1;	 
+	}
+	.container div:hover span:nth-child(4){
+		transform: translate(30px, -30px);
+		opacity: 0.8;	 
+	}
+	
+	.container div:hover span:nth-child(3){
+		transform: translate(20px, -20px);
+		opacity: 0.6;	 
+	}
+	
+	.container div:hover span:nth-child(2){
+		transform: translate(10px, -10px);
+		opacity: 0.4;	 
+	}
+	
+	.container div:hover span:nth-child(1){
+		transform: translate(0px, 0px);
+		opacity: 0.2;	 
+	}
+  </style>  
+  </head>
+  <body>
+	<div class="container"></div>
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+	for(var i=0; i<=1800;i++){
+		$('.container').append('<div><span></span><span></span><span></span><span></span><span></span></div>');	
+	}
+	
+	jQuery.expr.filters.offscreen = function(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+           (rect.x + rect.width) < 0 
+             || (rect.y + rect.height) < 0
+             || (rect.x > window.innerWidth || rect.y > window.innerHeight)
+         );
+};
+
+	function setRandomClass() {
+    var ul = $(".container");
+    var items = ul.find("div");
+    var number = items.length;
+    var random = Math.floor((Math.random() * number));
+    items.removeClass("active");
+    if(items.eq(random + 100).is(':visible')){
+    items.eq(random).addClass("active");
+    }
+}
+ var h = $('body').height();
+var visibleEls = new Array();
+$('.container').find('div').each(function(){
+	if($(this).is(':offscreen') == false){
+		visibleEls.push($('.container div').index($(this)));
+	};
+});
+
+function hex2a(hexx) {
+    var hex = hexx.toString();//force conversion
+    var str = '';
+    for (var i = 0; i < hex.length; i += 2)
+        str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
+    return str;
+}
+
+console.log(visibleEls);
+//alert(item);
+
+var ul = $(".container");
+var items = ul.find("div");
+
+for(u=1; u<5; u++){
+var random = visibleEls[(Math.random() * visibleEls.length) | 0];
+    items.eq(random).addClass('robin_'+random);
+    var content = window.getComputedStyle(document.querySelector('.robin_'+random+' span:nth-child(5)'), '::before').getPropertyValue('content').charCodeAt(1).toString(16);
+items.eq(random).addClass(content);
+console.log('content: ' + content); // "before"
+console.log('typeof content: ' + typeof content); // 
+    //$('.active').css('width', '150px');
+}
+	</script>
+  </body>
+</html>
